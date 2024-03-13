@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "give-me-a-joke": "^0.3.2",
-    "test": "^3.3.0"
+    "test": "^3.3.0",
+    "weronikamartinsen-test": "^0.1.0"
   }
 }
