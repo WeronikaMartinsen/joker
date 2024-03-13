@@ -1,0 +1,28 @@
+{
+  "name": "weronikamartinsen-test",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "This is a test",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "keywords"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Weronika Martinsen",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.3.2",
+    "test": "^3.3.0",
+    "weronikamartinsen-test": "^0.1.0"
+  }
+}
