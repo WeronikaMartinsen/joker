@@ -1,12 +1,14 @@
 {
   "name": "weronikamartinsen-test",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "type": "module",
   "description": "This is a test",
   "main": "src/index.js",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,11 @@
   "author": "Weronika Martinsen",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
     "prettier": "^3.2.5"
   },
   "dependencies": {
