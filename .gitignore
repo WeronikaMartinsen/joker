@@ -4,3 +4,6 @@ node_modules
 # npm folders to ignore
 /node_modules
 >>>>>>> enviroment-setup
+
+
+.eslintcache
